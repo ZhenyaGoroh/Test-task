@@ -1,10 +1,10 @@
 export enum NavigationItemLabels {
-  "home",
-  "market",
-  "rating",
-  "competition",
-  "organization",
-  "live",
+  "home" = "home",
+  "market" = "market",
+  "rating" = "rating",
+  "competition" = "competition",
+  "organization" = "organization",
+  "live" = "live",
 }
 
 export interface NavigationItemData {

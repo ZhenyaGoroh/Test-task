@@ -17,6 +17,8 @@ import {
     useDropdown,
 } from './ui';
 
+import { getPersistedState, setPersistedState } from './tools';
+
 export {
     HomeIcon,
     Logo,
@@ -31,4 +33,6 @@ export {
     DropdownMenu,
     DropdownItem,
     useDropdown,
+    getPersistedState,
+    setPersistedState,
 };

@@ -1,3 +1,4 @@
-import { Navigation, NavigationItemLabels } from "./navigation";
+import { Navigation, NavigationItemLabels } from './navigation';
+import { LanguageSelect } from './language-select';
 
-export { Navigation, NavigationItemLabels };
+export { Navigation, NavigationItemLabels, LanguageSelect };
