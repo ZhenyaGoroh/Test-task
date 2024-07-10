@@ -1,15 +1,13 @@
-import "./App.css";
-import { Logo } from "./assets";
+import { Header } from "@/widgets";
 
 function App() {
+  fetch('https://dummyjson.com/users/1')
+  .then(res => res.json())
+  .then(console.log);
+
   return (
     <>
-      <div className="bg-red-500">
-        <Logo />
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+     <Header />
     </>
   );
 }
