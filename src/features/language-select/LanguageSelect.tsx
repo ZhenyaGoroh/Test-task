@@ -29,16 +29,17 @@ const LanguageSelect = () => {
                     icon={getLanguageDataByLabel(selectedLanguage).icon}
                 />
             </DropdownMenuButton>
-            <DropdownMenu className="w-[100px] overflow-hidden bg-grayscale/20 !top-4">
-                <div className="flex flex-col gap-[1px]">
+            <DropdownMenu className="w-[100px] overflow-hidden !top-4">
+                <div className="flex flex-col gap-[1px] bg-grayscale/20">
                     {languagesData.map((item) => (
                         <DropdownItem
                             key={item.label}
                             onClick={() => handleLanguageChange(item.label)}
                             className={classNames(
-                                item.label === selectedLanguage &&
-                                    'bg-grayscale/20',
-                                'py-[10px] px-3 bg-white cursor-pointer',
+                                item.label === selectedLanguage
+                                    ? 'bg-grayscale/20'
+                                    : 'bg-white',
+                                'py-[10px] px-3 cursor-pointer',
                             )}
                         >
                             <LanguageSelectItem

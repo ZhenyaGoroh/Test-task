@@ -7,6 +7,8 @@ import {
     CompetitionIcon,
     LiveIcon,
     ChevronUpIcon,
+    ProfileIcon,
+    BellIcon,
 } from './assets';
 
 import {
@@ -35,4 +37,6 @@ export {
     useDropdown,
     getPersistedState,
     setPersistedState,
+    ProfileIcon,
+    BellIcon,
 };

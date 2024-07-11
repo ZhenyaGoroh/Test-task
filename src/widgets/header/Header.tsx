@@ -1,6 +1,11 @@
 import React from 'react';
-import { Logo } from '@/shared';
-import { NavigationItemLabels, Navigation, LanguageSelect } from '@/features';
+import { Logo, ProfileIcon } from '@/shared';
+import {
+    NavigationItemLabels,
+    Navigation,
+    LanguageSelect,
+    ProfileDropdown,
+} from '@/features';
 
 const Header = () => {
     return (
@@ -9,8 +14,11 @@ const Header = () => {
                 <img src={Logo} alt="" />
                 <Navigation activeItemLabel={NavigationItemLabels.home} />
             </div>
-
             <LanguageSelect />
+            <ProfileDropdown />
+            <div className="w-10 h-10 bg-grayscale/20 rounded-[10px] flex items-center justify-center">
+                <ProfileIcon />
+            </div>
         </header>
     );
 };
