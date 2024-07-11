@@ -1,7 +1,6 @@
 import { navigationData } from "@/features/navigation/data";
 import { NavigationItemData, NavigationItemLabels } from "@/features/navigation/types";
 import classNames from "classnames";
-import React from "react";
 
 const NavigationItem = ({
   icon,
@@ -15,6 +14,7 @@ const NavigationItem = ({
   });
 
   return (
+    // заменить на Link
     <div className="flex gap-[10px] items-center justify-center h-full cursor-pointer">
       {isActive ? activeIcon : icon}
       <p className={classNames(itemClass, "text-[14px] font-semibold")}>{text}</p>

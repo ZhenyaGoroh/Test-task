@@ -19,7 +19,6 @@ import {
 } from '@/shared';
 import classNames from 'classnames';
 import { useAtomValue } from 'jotai';
-import React from 'react';
 
 const ProfileDropdown = () => {
     const isNotification = true;

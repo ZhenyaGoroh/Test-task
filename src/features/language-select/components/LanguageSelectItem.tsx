@@ -1,5 +1,4 @@
 import { LanguageSelectItemData } from '@/features/language-select/types';
-import React from 'react';
 
 const LanguageSelectItem = ({ icon, label }: LanguageSelectItemData) => {
     return (

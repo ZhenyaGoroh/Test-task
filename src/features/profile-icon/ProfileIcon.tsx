@@ -1,7 +1,6 @@
 import { userAtom } from '@/entities';
 import { ProfileFilledIcon } from '@/shared';
 import { useAtomValue } from 'jotai';
-import React from 'react';
 
 const ProfileIcon = () => {
     const { image: userIcon } = useAtomValue(userAtom);

@@ -11,7 +11,6 @@ import {
     useDropdown,
 } from '@/shared';
 import classNames from 'classnames';
-import React from 'react';
 
 const LanguageSelect = () => {
     const persistedLanguage = getPersistedState<Languages>('language');
