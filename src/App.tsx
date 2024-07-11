@@ -1,10 +1,8 @@
+import { useFetchUser } from '@/entities';
 import { Header } from '@/widgets';
 
 function App() {
-    fetch('https://dummyjson.com/users/1')
-        .then((res) => res.json())
-        .then(console.log);
-
+    useFetchUser();
     return <Header />;
 }
 

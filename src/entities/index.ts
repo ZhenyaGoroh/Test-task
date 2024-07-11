@@ -1,4 +1,4 @@
-import { userAtom, User } from './user';
+import { userAtom, User, useFetchUser } from './user';
 
-export { userAtom };
+export { userAtom, useFetchUser };
 export type { User };
