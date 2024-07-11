@@ -38,7 +38,7 @@ const LanguageSelect = () => {
                                 item.label === selectedLanguage
                                     ? 'bg-grayscale/20'
                                     : 'bg-white',
-                                'py-[10px] px-3 cursor-pointer',
+                                'py-[10px] px-3 cursor-pointer hover:bg-grayscale/20 transition',
                             )}
                         >
                             <LanguageSelectItem

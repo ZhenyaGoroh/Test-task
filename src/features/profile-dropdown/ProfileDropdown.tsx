@@ -50,28 +50,28 @@ const ProfileDropdown = () => {
                     </div>
                     <div>
                         <DropdownItem
-                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center"
+                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center hover:bg-grayscale/20 transition cursor-pointer rounded-lg"
                             key={self.crypto.randomUUID()}
                         >
                             <ProfileIcon className="stroke-grayscale/40" />
                             <p>Профиль</p>
                         </DropdownItem>
                         <DropdownItem
-                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center"
+                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center hover:bg-grayscale/20 transition cursor-pointer rounded-lg"
                             key={self.crypto.randomUUID()}
                         >
                             <PlusIcon className="stroke-grayscale/40" />
                             <p>Добавить организацию</p>
                         </DropdownItem>
                         <DropdownItem
-                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center"
+                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center hover:bg-grayscale/20 transition cursor-pointer rounded-lg"
                             key={self.crypto.randomUUID()}
                         >
                             <CompetitionIcon className="stroke-grayscale/40" />
                             <p>Мои соревнования</p>
                         </DropdownItem>
                         <DropdownItem
-                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center"
+                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center hover:bg-grayscale/20 transition cursor-pointer rounded-lg"
                             key={self.crypto.randomUUID()}
                         >
                             <CoinIcon className="stroke-grayscale/40" />
@@ -84,21 +84,21 @@ const ProfileDropdown = () => {
                             </p>
                         </DropdownItem>
                         <DropdownItem
-                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center"
+                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center hover:bg-grayscale/20 transition cursor-pointer rounded-lg"
                             key={self.crypto.randomUUID()}
                         >
                             <WalletIcon className="stroke-grayscale/40" />
                             <p>История платежей</p>
                         </DropdownItem>
                         <DropdownItem
-                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center"
+                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center hover:bg-grayscale/20 transition cursor-pointer rounded-lg"
                             key={self.crypto.randomUUID()}
                         >
                             <WalletIcon className="stroke-grayscale/40" />
                             <p>Мои билеты</p>
                         </DropdownItem>
                         <DropdownItem
-                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center"
+                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center hover:bg-grayscale/20 transition cursor-pointer rounded-lg"
                             key={self.crypto.randomUUID()}
                         >
                             <FileIcon className="stroke-grayscale/40" />
@@ -111,7 +111,7 @@ const ProfileDropdown = () => {
                             </p>
                         </DropdownItem>
                         <DropdownItem
-                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center"
+                            className="text-[14px] font-semibold text-grayscale/40 flex h-12 gap-[10px] items-center hover:bg-grayscale/20 transition cursor-pointer rounded-lg"
                             key={self.crypto.randomUUID()}
                         >
                             <PhoneIcon className="stroke-grayscale/40" />
