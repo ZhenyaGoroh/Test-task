@@ -7,6 +7,12 @@ import { ReactComponent as LiveIcon } from "./live.svg";
 import { ReactComponent as ChevronUpIcon } from "./chevron-up.svg";
 import { ReactComponent as ProfileIcon } from "./profile.svg";
 import { ReactComponent as BellIcon } from "./bell.svg";
+import { ReactComponent as ProfileFilledIcon } from "./profile-filled.svg";
+import { ReactComponent as CoinIcon } from "./coin.svg";
+import { ReactComponent as FileIcon } from "./file.svg";
+import { ReactComponent as PhoneIcon } from "./phone.svg";
+import { ReactComponent as PlusIcon } from "./plus.svg";
+import { ReactComponent as WalletIcon } from "./wallet.svg";
 
 import Logo from "./logo.png";
 
@@ -20,5 +26,11 @@ export {
   LiveIcon,
   ChevronUpIcon,
   ProfileIcon,
-  BellIcon
+  BellIcon,
+  ProfileFilledIcon,
+  CoinIcon,
+  FileIcon,
+  PhoneIcon,
+  PlusIcon,
+  WalletIcon
 };

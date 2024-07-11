@@ -9,6 +9,12 @@ import {
     ChevronUpIcon,
     ProfileIcon,
     BellIcon,
+    ProfileFilledIcon,
+    CoinIcon,
+    FileIcon,
+    PhoneIcon,
+    PlusIcon,
+    WalletIcon,
 } from './assets';
 
 import {
@@ -39,4 +45,10 @@ export {
     setPersistedState,
     ProfileIcon,
     BellIcon,
+    ProfileFilledIcon,
+    CoinIcon,
+    FileIcon,
+    PhoneIcon,
+    PlusIcon,
+    WalletIcon,
 };

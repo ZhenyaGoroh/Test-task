@@ -6,6 +6,7 @@ export default {
       colors: {
         "grayscale/70": "#06082C",
         "grayscale/40": "#9395B8",
+        "grayscale/30": "#CCCFDA",
         "grayscale/20": "#EEF0F7",
       },
       dropShadow: {

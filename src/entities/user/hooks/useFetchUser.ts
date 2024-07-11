@@ -14,7 +14,7 @@ export function useFetchUser() {
 
     async function fetchUser() {
         const userData = await get('/users/1');
-        if (response.ok) setUser(userData);
+        if (response.ok) setUser({ ...userData, authorized: true });
     }
     
 }
